@@ -1,0 +1,2 @@
+# Calender-scraping
+Pyrhonを用いて、Yahooカレンダーに格納された個人の日程予定情報を取得しCSVファイルにをまとめ、Googleカレンダーへ移行用にエクスポートする。
