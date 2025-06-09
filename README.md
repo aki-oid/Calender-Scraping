@@ -1,4 +1,4 @@
-# Calender-scraping
+# Calender-Scraping
 
 目的：Yahooカレンダーに格納された個人の日程予定情報を取得し、Googleカレンダーへ移行用にCSVファイルとしてエクスポートする。
 前提条件：yahooアカウントを持っていること
