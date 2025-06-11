@@ -31,17 +31,17 @@ print("タイトル：" + title.text)
 if title.text != 'Yahoo!カレンダー':
 	time.sleep(1)
 	# ユーザー名とパスワードの入力
-	elem_username = driver.find_element(By.XPATH, '//*[@id="login_handle"]')
-	elem_username.send_keys('111111111@yahoo.co.jp') #11111111←アカウント名
+	#elem_username = driver.find_element(By.XPATH, '//*[@id="login_handle"]')
+	#elem_username.send_keys('111111111@yahoo.co.jp') #11111111←アカウント名
 
 	time.sleep(3)
 	# ログインボタンをクリック
-	elem_login_btn = driver.find_element(By.XPATH, '//*[@id="content"]/div[1]/div/form/div[1]/div[1]/div[2]/div/button')
-	elem_login_btn.click()
+	#elem_login_btn = driver.find_element(By.XPATH, '//*[@id="content"]/div[1]/div/form/div[1]/div[1]/div[2]/div/button')
+	#elem_login_btn.click()
 
 	time.sleep(3)
-	elem_login_btn2 = driver.find_element(By.XPATH, '//*[@id="content"]/div[1]/div/form/div[2]/div/div[2]/div[2]/div[3]/button')
-	elem_login_btn2.click()
+	#elem_login_btn2 = driver.find_element(By.XPATH, '//*[@id="content"]/div[1]/div/form/div[2]/div/div[2]/div[2]/div[3]/button')
+	#elem_login_btn2.click()
 
 	#PINの入力
 	#time.sleep(15)
