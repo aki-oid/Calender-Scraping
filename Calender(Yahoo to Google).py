@@ -32,7 +32,7 @@ if title.text != 'Yahoo!カレンダー':
 	time.sleep(1)
 	# ユーザー名とパスワードの入力
 	elem_username = driver.find_element(By.XPATH, '//*[@id="login_handle"]')
-	elem_username.send_keys('hataakisan@yahoo.co.jp')
+	elem_username.send_keys('111111111@yahoo.co.jp') #11111111←アカウント名
 
 	time.sleep(3)
 	# ログインボタンをクリック
@@ -194,8 +194,6 @@ with open('Calender(Y_to_G).csv', 'w', encoding='utf-8') as f: #Shift JIS
 												stanp = 'バ'
 											elif stanp == '大学':
 												stanp = '学'
-											elif stanp == 'バレー':
-												stanp = '部'
 											elif stanp == '部活':
 												stanp = '部'
 											
