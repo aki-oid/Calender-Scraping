@@ -44,7 +44,7 @@ if title.text != 'Yahoo!カレンダー':
 	#elem_login_btn2.click()
 
 	#PINの入力
-	#time.sleep(15)
+	time.sleep(15)
 
 # ページがロードされるのを待つ
 WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, 'rbc-month-view')))
